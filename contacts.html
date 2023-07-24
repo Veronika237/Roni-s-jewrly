@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Главная страница интрернет-магазина Roni's jewerly</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="./img/logo.png" alt="Roni's jewerly - магазин украшений"><span>Roni's jewerly</span>
+    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a class="active" href="./contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="content">
+    <nav class="breadcrumbs">
+        <ul>
+            <li><a href="./index.html">Главная /</a></li>
+            <li>Контакты</li>
+<!--            <li><a href="#">Автомодели /</a></li>-->
+<!--            <li><a href="#">Быстрые /</a></li>-->
+<!--            <li>Cyclone D4</li>-->
+        </ul>
+    </nav>
+    <main>
+        <h2>Форма обратной связи:</h2>
+        <div class="contact-box">
+            <form name = "form1" method = "post" action = "http://test.local/sendmessage.php">
+                <input name="name" type="text" placeholder="имя"/><br>
+                <input name="email" type="text" placeholder="почта"/><br>
+                <input size="30" name="header" type="text" placeholder="Тема"/><br>
+                <textarea cols="32" name="message" rows="5" placeholder="сообщение"></textarea><br>
+                <input type="submit" value="Отправить" />
+            </form>
+            <div class="contact-box__map">
+                <p>Адрес: 105118, г.Москва, ул. Кирпичная, д. 22</p>
+               <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aad75f7ac1901fd867177c7252d6df677151a625832e93935f9a1c99d057984f1&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>-->
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <div class="copyright">
+            <p>&copy;&nbsp;2023 Все права защищены</p>
+        </div>
+        <div class="footer-info">
+            <p> </p>
+            <p>Адрес: 105118, г.Москва, ул. Кирпичная, д. 22</p>
+            <p>Тел.: +7 (495) 540-55-11, 8 (800) 555-55-90</p>
+            <p>Email: Roni's jewerly@elwau.ru</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
